@@ -1,0 +1,7 @@
+.h00 { font-size: $h1; }
+.h0 {  font-size: $h1; }
+
+@media #{$breakpoint-lg} {
+  .h00 { font-size: $h00; }
+  .h0 {  font-size: $h0; }
+}
